@@ -1,0 +1,10 @@
+Package: PhasingPackage
+Title: Uses the python class for phasing
+Version: 0.0.0.9000
+Authors@R: Alfred Ferrer Florensa (f.f.alfred@gmail.com)
+Description: Simple tool for phasing human PB-oocyte trios, as a programming assignment for the candidate informatician at Hoffmann Lab. It is the pilot stage of the phasing algorithm for phasing human oocytes from the SNP array data. This is the phasing by a common reference. The algorithm is described in Ottolini et al. 2016 and Ottolini et al. 2015. It reaches the step 45 of the Protocol described in Ottolini et al. 2016, previous to remove the common crossover. The program follows all the rules described in the Protocolo of Ottolini et al. 2016, until the step 45, except for the ones regarding the choosing of a reference.
+Depends: R (>= 3.4.4)
+License: ?
+Encoding: UTF-8
+LazyData: true
+Imports: reticulate
